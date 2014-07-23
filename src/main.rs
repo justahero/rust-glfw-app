@@ -3,7 +3,6 @@ extern crate glfw;
 extern crate core;
 
 use glfw::Context;
-use core::option;
 
 #[start]
 fn start(argc: int, argv: *const *const u8) -> int {
