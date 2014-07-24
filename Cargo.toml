@@ -4,6 +4,10 @@ name = "hello-world"
 version = "0.0.1"
 authors = [ "sebastian.ziebell@gmail.com" ]
 
+[dependencies.gl]
+
+git = "https://github.com/bjz/gl-rs.git"
+
 [dependencies.glfw]
 
 git = "https://github.com/bjz/glfw-rs.git"
